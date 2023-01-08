@@ -11,6 +11,9 @@ public class Block : MonoBehaviour
     public SpriteRenderer sr;
     public BlockShared blockShared;
 
+    private Sprite defSprite;
+    public Sprite damagedSprite;
+
     public int baseHealth;
     [SerializeField] public int currentHealth;
 
@@ -32,6 +35,7 @@ public class Block : MonoBehaviour
         connections = new Block[4];
         defaultMat = sr.material;
         blockShared = FindObjectOfType<BlockShared>();
+        defSprite = sr.sprite;
     }
 
     public void Update()
@@ -121,6 +125,11 @@ public class Block : MonoBehaviour
         isFlashing = true;
         timeSinceLastHit = 0;
 
+        if (currentHealth <= baseHealth / 2)
+        {
+            sr.sprite = damagedSprite;
+        }
+
         if (currentHealth <= 0)
         {
             this.RemoveAllConnections();
@@ -147,12 +156,18 @@ public class Block : MonoBehaviour
         timeSinceLastHit = 0;
 
         currentHealth = baseHealth;
+        sr.sprite = defSprite;
     }
 
     public virtual void OnBlockDestroyed()
     {
         ParticleSystem particle = Instantiate(blockShared.blockDestroyParticle, transform.position, Quaternion.identity);
         particle.Play();
+    }
+
+    public bool ColliderIsEmpty(Dir dir)
+    {
+        return transform.GetChild((int)dir).gameObject.activeSelf;
     }
 }
 

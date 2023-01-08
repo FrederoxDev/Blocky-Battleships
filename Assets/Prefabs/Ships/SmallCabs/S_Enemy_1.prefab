@@ -220,10 +220,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 446568999492589579}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: 1084158438, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 50
   currentHealth: 50
   isFlashing: 0
   timeSinceLastHit: 23.688862
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 0}
   - {fileID: 0}
@@ -772,10 +774,12 @@ MonoBehaviour:
   defaultMat: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: 647901941, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 20
   currentHealth: 0
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 0}
   - {fileID: 0}
@@ -787,7 +791,7 @@ MonoBehaviour:
   state: 0
   wanderRange: 20
   targetPos: {x: 0, y: 0}
-  fleeDist: 50
+  fleeDist: 10
   chaseDistance: 50
   shootDistance: 30
 --- !u!1 &3088977818136088444
@@ -1041,10 +1045,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 11474176441185860}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: 1084158438, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 50
   currentHealth: 50
   isFlashing: 0
   timeSinceLastHit: 23.688862
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 0}
   - {fileID: 0}
@@ -1186,10 +1192,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 4906524263536067782}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: 1084158438, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 50
   currentHealth: 50
   isFlashing: 0
   timeSinceLastHit: 23.688862
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 0}
   - {fileID: 0}
@@ -1393,10 +1401,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 8364806246920518127}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: -743726347, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 50
   currentHealth: 50
   isFlashing: 0
   timeSinceLastHit: 23.688862
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 0}
   - {fileID: 0}
@@ -1595,10 +1605,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 8364806247144918928}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: -743726347, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 50
   currentHealth: 50
   isFlashing: 0
   timeSinceLastHit: 23.688862
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 0}
   - {fileID: 0}

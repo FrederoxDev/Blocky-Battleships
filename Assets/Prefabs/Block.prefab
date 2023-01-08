@@ -244,8 +244,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f89260780bc339f43a5b03da12791a95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultMat: {fileID: 0}
+  sr: {fileID: 0}
+  blockShared: {fileID: 0}
+  damagedSprite: {fileID: -743726347, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 25
   currentHealth: 0
+  isFlashing: 0
+  timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections: []
   rotation: 0
 --- !u!1 &5772611870412814535

@@ -131,10 +131,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: 2121687914, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 50
   currentHealth: 5
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections: []
   rotation: 0
   projectilePrefab: {fileID: 3929305759091496790, guid: e5db72673d89f674f8e6bdbf6c9fbe5b, type: 3}

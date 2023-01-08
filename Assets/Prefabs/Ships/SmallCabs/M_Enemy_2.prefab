@@ -190,10 +190,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: -743726347, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 50
   currentHealth: 50
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 2913645882478505225}
   - {fileID: 0}
@@ -414,10 +416,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: 647901941, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 20
   currentHealth: 0
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 0}
   - {fileID: 0}
@@ -429,7 +433,7 @@ MonoBehaviour:
   state: 0
   wanderRange: 20
   targetPos: {x: 0, y: 0}
-  fleeDist: 50
+  fleeDist: 10
   chaseDistance: 50
   shootDistance: 30
 --- !u!1 &53684614145592769
@@ -1002,10 +1006,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: -743726347, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 25
   currentHealth: 25
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 9199484594178899542}
   - {fileID: 0}
@@ -1143,10 +1149,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: 1084158438, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 50
   currentHealth: 50
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 0}
   - {fileID: 0}
@@ -1470,10 +1478,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: 1084158438, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 50
   currentHealth: 50
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 0}
   - {fileID: 0}
@@ -1764,10 +1774,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: -743726347, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 25
   currentHealth: 25
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 3773976634077379213}
   - {fileID: 0}
@@ -2254,10 +2266,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: 0}
   baseHealth: 25
   currentHealth: 25
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 0}
   - {fileID: 5810441998247536903}
@@ -2397,10 +2411,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: -743726347, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 25
   currentHealth: 25
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 2487566869193640191}
   - {fileID: 0}
@@ -2656,10 +2672,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: -743726347, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 25
   currentHealth: 25
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 5810441997500912928}
   - {fileID: 0}
@@ -3352,10 +3370,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: -743726347, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 25
   currentHealth: 25
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 137074524189441524}
   - {fileID: 0}
@@ -3582,10 +3602,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: 1084158438, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 50
   currentHealth: 20
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 0}
   - {fileID: 0}
@@ -4049,10 +4071,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: -743726347, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 50
   currentHealth: 50
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 2913645881649752562}
   - {fileID: 0}
@@ -4307,10 +4331,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: 0}
   baseHealth: 50
   currentHealth: 50
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 0}
   - {fileID: 0}
@@ -4567,10 +4593,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: -743726347, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 50
   currentHealth: 50
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 0}
   - {fileID: 2913645882762375916}
@@ -5145,10 +5173,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: 1084158438, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 50
   currentHealth: 20
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections:
   - {fileID: 0}
   - {fileID: 0}

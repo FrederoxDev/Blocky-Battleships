@@ -364,10 +364,12 @@ MonoBehaviour:
   defaultMat: {fileID: 0}
   sr: {fileID: 0}
   blockShared: {fileID: 0}
+  damagedSprite: {fileID: 44634955, guid: 4e8dc2b67b6fd4147b2e714694dfdb1e, type: 3}
   baseHealth: 100
   currentHealth: 0
   isFlashing: 0
   timeSinceLastHit: 0
+  audioSource: {fileID: 0}
   connections: []
   rotation: 0
   selectedBlock: {fileID: 0}

@@ -139,10 +139,17 @@ public class PlayerCab : Block
 
             if (CheckForCab(other.gameObject))
             {
-                if (colliders[0].CompareTag("TopCollider")) other.CreateConnection(selectedBlock, Dir.Up, true);
-                else if (colliders[0].CompareTag("RightCollider")) other.CreateConnection(selectedBlock, Dir.Right, true);
-                else if (colliders[0].CompareTag("DownCollider")) other.CreateConnection(selectedBlock, Dir.Down, true);
-                else other.CreateConnection(selectedBlock, Dir.Left, true);
+                if (colliders[0].CompareTag("TopCollider") && selectedBlock.ColliderIsEmpty(Dir.Down)) 
+                    other.CreateConnection(selectedBlock, Dir.Up, true);
+
+                else if (colliders[0].CompareTag("RightCollider") && selectedBlock.ColliderIsEmpty(Dir.Left))
+                    other.CreateConnection(selectedBlock, Dir.Right, true);
+
+                else if (colliders[0].CompareTag("DownCollider") && selectedBlock.ColliderIsEmpty(Dir.Up))
+                    other.CreateConnection(selectedBlock, Dir.Down, true);
+
+                else if (colliders[0].CompareTag("LeftCollider") && selectedBlock.ColliderIsEmpty(Dir.Right)) 
+                    other.CreateConnection(selectedBlock, Dir.Left, true);
 
                 selectedBlock.transform.position = colliders[0].transform.position;
                 selectedBlock.transform.rotation = Quaternion.Euler(0, 0,

@@ -29,8 +29,13 @@ public class EnemyCab : Block
         waveManager = FindObjectOfType<WaveManager>();
         rb = GetComponent<Rigidbody2D>();
         player = FindObjectOfType<PlayerCab>();
+        
+        if (blockShared.radarUI != null )
+        {
+            radarPointUI = Instantiate(blockShared.radarEnemyUI, blockShared.radarUI.transform);
+        }
 
-        radarPointUI = Instantiate(blockShared.radarEnemyUI, blockShared.radarUI.transform);
+        targetPos = (Vector2)transform.position + new Vector2(Random.Range(-wanderRange, wanderRange), Random.Range(-wanderRange, wanderRange));
     }
 
     private new void Update()
@@ -45,7 +50,7 @@ public class EnemyCab : Block
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg - 90f;
         transform.rotation = Quaternion.Euler(0, 0, angle);
 
-        if (!player.IsDestroyed())
+        if (player != null && !player.IsDestroyed())
         {
             Vector2 playerDir = (transform.position - player.transform.position).normalized;
             float playerAngle = Mathf.Atan2(playerDir.y, playerDir.x) * Mathf.Rad2Deg - 90f;
@@ -63,7 +68,7 @@ public class EnemyCab : Block
             targetPos = (Vector2) transform.position + new Vector2(Random.Range(-wanderRange, wanderRange), Random.Range(-wanderRange, wanderRange));
         }
 
-        if (!player.IsDestroyed())
+        if (player != null && !player.IsDestroyed())
         {
             if (Vector2.Distance(transform.position, player.transform.position) < chaseDistance)
                 state = EnemyState.Chase;
