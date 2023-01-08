@@ -14,9 +14,9 @@ Space: Shoot
 
 Click + Drag: Move blocks
 
-**​Time Spent on Game: 18h 15m**
+**Time Spent on Game: 18h 15m**
 
-​- 6th: 3hrs 
+- 6th: 3hrs 
 
 - 7th: 9h 25m
 
